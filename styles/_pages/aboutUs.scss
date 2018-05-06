@@ -1,0 +1,25 @@
+.des_text {
+  font-size: rem(16);
+  color: #5C5C5C;
+  line-height: 1.5;
+  padding-bottom: rem(30);
+}
+.aboutUs_des {
+  font-size: rem(16);
+  color: #5C5C5C;
+  line-height: 1.5;
+  padding: 0 rem(50);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: table;
+}
+.about_content {
+  .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
