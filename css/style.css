@@ -126,7 +126,7 @@
   opacity: 0.7;
   display: none;
   position: fixed;
-  z-index: 98;
+  z-index: 998;
   top: 0;
   bottom: 0;
   left: 0;
@@ -187,12 +187,13 @@
 }
 
 .rightContent .content_wrap {
+  min-height: 38.0625rem;
   padding-top: 3.125rem;
 }
 
 .header-content {
   position: fixed;
-  z-index: 99;
+  z-index: 899;
   top: 0;
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
@@ -244,7 +245,65 @@
   background: #24252C;
 }
 
+.pagePagation {
+  text-align: center;
+  padding: 2.5rem 0 3.75rem 0;
+}
+
+.pagePagation button {
+  padding: 0.8125rem 2.5rem;
+  border-radius: 6.25rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.17px;
+  cursor: pointer;
+}
+
+.pagePagation .activeBtn {
+  background: #04BCF6;
+  color: #ffffff;
+  border: 1px solid #04BCF6;
+  margin-left: 0.625rem;
+}
+
+.pagePagation .activeBtn:hover {
+  background: #15B2F6;
+}
+
+.pagePagation .disabledBtn {
+  background: #ebebeb;
+  color: #888888;
+  border: 1px solid #ebebeb;
+  margin-right: 0.625rem;
+}
+
+.pagePagation .disabledBtn:hover {
+  background: #E4E6EB;
+}
+
+.pageFooter {
+  background: #FFFFFF;
+  border-top: 1px solid #E6E6E6;
+}
+
+.pageFooter a {
+  display: inline-block;
+  padding: 1.5rem 3.75rem;
+  font-size: 1rem;
+  color: #888888 !important;
+}
+
+.pageFooter a:first-child {
+  float: left;
+}
+
+.pageFooter a:last-child {
+  float: right;
+}
+
 @media (max-width: 768px) {
+  .pageFooter {
+    display: none;
+  }
   .mobile-header {
     display: block;
   }
@@ -285,6 +344,9 @@
     height: 18.75rem;
     position: absolute;
     width: 100%;
+  }
+  .rightContent .content_wrap {
+    min-height: 100px;
   }
 }
 
@@ -512,7 +574,11 @@
 .history ._HistoryTitle {
   font-size: 1.125rem;
   color: #A3642D;
+  font-weight: bold;
   text-align: left;
+  padding-left: 0.625rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
 }
 
 .history .historyContent {
@@ -674,6 +740,63 @@
   border: none;
   background: #FAFAFA;
   border-bottom: 1px solid #cac4c4;
+}
+
+.recruitTable {
+  border: 1px solid #ddd;
+}
+
+.recruitTable th {
+  font-size: 1rem;
+  color: #888888;
+  letter-spacing: 0.36px;
+  padding: 1.25rem 1.875rem;
+}
+
+.recruitTable td {
+  font-size: 1rem;
+  color: #404040;
+  letter-spacing: 0.36px;
+  padding: 1.25rem 1.875rem;
+}
+
+.recruitTable td:last-child {
+  color: #1567D3;
+  text-align: right;
+  cursor: pointer;
+}
+
+.recruitModal {
+  padding: 2.5rem;
+}
+
+.recruitModal .options {
+  font-size: 1rem;
+  color: #5C5C5C;
+  letter-spacing: 0.23px;
+  padding: 0.625rem 0;
+}
+
+.recruitModal .options p {
+  line-height: 1.5;
+}
+
+.recruitModal .title {
+  font-size: 1.5rem;
+  color: #404040;
+  letter-spacing: 0.23px;
+  padding-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .recruitTable th {
+    font-size: 0.8125rem;
+    padding: 0.9375rem 0.625rem;
+  }
+  .recruitTable td {
+    font-size: 0.8125rem;
+    padding: 0.9375rem 0.625rem;
+  }
 }
 
 @font-face {

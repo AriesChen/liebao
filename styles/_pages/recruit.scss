@@ -1,0 +1,50 @@
+.recruitTable {
+  border: 1px solid #ddd;
+  th {
+    font-size: rem(16);
+    color: #888888;
+    letter-spacing: 0.36px;
+    padding: rem(20) rem(30);
+  }
+  td {
+    font-size: rem(16);
+    color: #404040;
+    letter-spacing: 0.36px;
+    padding: rem(20) rem(30);
+    &:last-child {
+      color: #1567D3;
+      text-align: right;
+      cursor: pointer;
+    }
+  }
+}
+.recruitModal {
+  padding: rem(40);
+  .options {
+    font-size: rem(16);
+    color: #5C5C5C;
+    letter-spacing: 0.23px;
+    padding: rem(10) 0;
+    p {
+      line-height: 1.5;
+    }
+  }
+  .title {
+    font-size: rem(24);
+    color: #404040;
+    letter-spacing: 0.23px;
+    padding-bottom: rem(20);
+  }
+}
+@media (max-width: 768px) {
+  .recruitTable {
+    th {
+      font-size: rem(13);
+      padding: rem(15) rem(10);
+    }
+    td {
+      font-size: rem(13);
+      padding: rem(15) rem(10);
+    }
+  }
+}
