@@ -3,9 +3,25 @@
   color: #404040;
   line-height: rem(80);
 }
-.prize {
-  padding-bottom: rem(30);
-  font-size: rem(18);
-  line-height: 1.9;
-  color: #5c5c5c;
+.honorBox {
+  overflow: hidden;
+  margin-bottom: rem(15);
+  .honorDes {
+    padding: rem(7) 0;
+    line-height: 1.5;
+  }
+  img {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+  }
 }

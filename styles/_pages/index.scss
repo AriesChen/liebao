@@ -1,0 +1,102 @@
+.indexSiwper {
+  position: relative;
+  .slideSlogen {
+    position: absolute;
+    top: rem(100);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    .title {
+      font-size: rem(48);
+      color: #FFFFFF;
+      letter-spacing: 0.48px;
+      line-height: 2;
+    }
+    .subTitle {
+      font-size: rem(24);
+      color: #FFFFFF;
+      letter-spacing: 0.48px;
+      padding-bottom: rem(30);
+    }
+    .detailBtn {
+      background: rgba(0,0,0,0.08);
+      border: 1px solid #FFFFFF;
+      border-radius: 100px;
+      font-size: rem(18);
+      color: #FFFFFF;
+      padding: rem(10) rem(40);
+      letter-spacing: 0.17px;
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.indexNews {
+  margin-top: rem(48);
+  margin-bottom: rem(48);
+  .companyIndr {
+    .zh_name {
+      font-size: rem(24);
+      color: #1365E6;
+      letter-spacing: 0.23px;
+      line-height: 2;
+    }
+    .en_name {
+      font-size: rem(18);
+      color: #A1B4C8;
+      letter-spacing: 0.17px;
+      padding-bottom: rem(10);
+    }
+    .introduction {
+      font-size: rem(16);
+      line-height: 1.5;
+      color: #5C5C5C;
+    }
+  }
+  .switchNav {
+    display: flex;
+    border-bottom: 3px solid #D8D8D8;
+    span {
+      display: inline-block;
+      font-size: rem(18);
+      color: #404040;
+      letter-spacing: 0.17px;
+      line-height: 2;
+      padding: rem(5) rem(40) rem(5) 0;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+    }
+    .active {
+      &:after {
+        content: " ";
+        position: absolute;
+        top: rem(46);
+        left: 0;
+        width: rem(73);
+        height: rem(3);
+        background: #1365E6;
+      }
+    }
+  }
+  ul {
+    margin-top: rem(25);
+    li {
+      font-size: rem(16);
+      color: #5C5C5C;
+      letter-spacing: 0.17px;
+      line-height: rem(31);
+    }
+  }
+  .companyNews {
+    display: block;
+  }
+  .mediaNews {
+    display: none;
+  }
+}

@@ -1,5 +1,120 @@
 /*RESET*/
 /*PAGES*/
+.indexSiwper {
+  position: relative;
+}
+
+.indexSiwper .slideSlogen {
+  position: absolute;
+  top: 6.25rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.indexSiwper .slideSlogen .title {
+  font-size: 3rem;
+  color: #FFFFFF;
+  letter-spacing: 0.48px;
+  line-height: 2;
+}
+
+.indexSiwper .slideSlogen .subTitle {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  letter-spacing: 0.48px;
+  padding-bottom: 1.875rem;
+}
+
+.indexSiwper .slideSlogen .detailBtn {
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  padding: 0.625rem 2.5rem;
+  letter-spacing: 0.17px;
+  display: inline-block;
+}
+
+.indexSiwper .slideSlogen a {
+  text-decoration: none;
+}
+
+.indexNews {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.indexNews .companyIndr .zh_name {
+  font-size: 1.5rem;
+  color: #1365E6;
+  letter-spacing: 0.23px;
+  line-height: 2;
+}
+
+.indexNews .companyIndr .en_name {
+  font-size: 1.125rem;
+  color: #A1B4C8;
+  letter-spacing: 0.17px;
+  padding-bottom: 0.625rem;
+}
+
+.indexNews .companyIndr .introduction {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #5C5C5C;
+}
+
+.indexNews .switchNav {
+  display: flex;
+  border-bottom: 3px solid #D8D8D8;
+}
+
+.indexNews .switchNav span {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #404040;
+  letter-spacing: 0.17px;
+  line-height: 2;
+  padding: 0.3125rem 2.5rem 0.3125rem 0;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+.indexNews .switchNav .active:after {
+  content: " ";
+  position: absolute;
+  top: 2.875rem;
+  left: 0;
+  width: 4.5625rem;
+  height: 0.1875rem;
+  background: #1365E6;
+}
+
+.indexNews ul {
+  margin-top: 1.5625rem;
+}
+
+.indexNews ul li {
+  font-size: 1rem;
+  color: #5C5C5C;
+  letter-spacing: 0.17px;
+  line-height: 1.9375rem;
+}
+
+.indexNews .companyNews {
+  display: block;
+}
+
+.indexNews .mediaNews {
+  display: none;
+}
+
 .des_text {
   font-size: 1rem;
   color: #5C5C5C;
@@ -356,11 +471,30 @@
   line-height: 5rem;
 }
 
-.prize {
-  padding-bottom: 1.875rem;
-  font-size: 1.125rem;
-  line-height: 1.9;
-  color: #5c5c5c;
+.honorBox {
+  overflow: hidden;
+  margin-bottom: 0.9375rem;
+}
+
+.honorBox .honorDes {
+  padding: 0.4375rem 0;
+  line-height: 1.5;
+}
+
+.honorBox img {
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.honorBox img:hover {
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
 }
 
 .newsBox {
